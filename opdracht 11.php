@@ -1,26 +1,22 @@
 <?php
-// $n = 5;
+$n = 5;
 
-// $x= 1;
-// $array1 = array();
-// $end = end($array1);
-// echo "$n! = "; 
-// while($x <= $n) {
-//     array_push($array1,$x);
-//     if($x == $end) {
-//         echo "end =";
-//     }
-//     else {
-//         echo "$x x ";
-//         $x++;
-//     }
-// }
-// echo array_product($array1);
+$x= 1;
+$array1 = array();
+
+while($x <= $n) {
+    array_push($array1, $x);
+    $x++;
+}
+
+$xold = $x-1;
+echo "De faculteit van $xold = " .array_product($array1);
 
 ?>
 
 <?php
 
-
+// $array1 = array(1,5,3,2);
+// echo end($array1);
 
 ?>
