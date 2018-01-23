@@ -1,14 +1,12 @@
 <?php
+$time = date('H');
 
-echo "<h1>Opdracht 2</h1><br>";
+    echo "Het is nu ";
 
-$time = date("G");
-echo "het is $time uur <br>";
-
-switch(date("G")) {
-    case >12:
-        echo "Het is nacht";
-    case >18: 
-        echo "Het is ochtend";
-}
-?>
+    switch($time) {
+        case ($time < 6) : echo "nacht <br>";
+        case ($time < 12) : echo "ochtend <br>";
+        case ($time < 18) : echo "middag <br>";
+        case ($time < 24) : echo "avond <br>";
+    }
+    ?>
