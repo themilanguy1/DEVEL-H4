@@ -13,10 +13,3 @@ $xold = $x-1;
 echo "De faculteit van $xold = " .array_product($array1);
 
 ?>
-
-<?php
-
-// $array1 = array(1,5,3,2);
-// echo end($array1);
-
-?>

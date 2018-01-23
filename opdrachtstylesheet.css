@@ -7,5 +7,25 @@ td {
 }
 
 tr {
-    border: 2px solid black;
+}
+
+.doos {
+    font-size: 14px;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightgrey;
+    display: block;
+    padding: 1em;
+    margin: auto;
+    margin-bottom: 5em;
+}
+
+.headeropdracht {
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.echteheader {
+    font-size: 35px;
+    padding: 1em;
+    margin-bottom: 3em;
 }
