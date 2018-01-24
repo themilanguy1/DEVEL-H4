@@ -9,14 +9,15 @@
     <div class="container-flex">
         <div class="echteheader text-center">
         <h2>Hoofdstuk 4 PHP/MySQL boek opdrachten</h2>
-        <a href="https://www.ictacademie.info/milangupta/downloads/DEVEL-H4-master.zip">
+        <a href="https://www.ictacademie.info/milangupta/downloads/H4-opdrachten.zip">
         <button class="btn btn-primary">Zip download</button>
         </a>
-        <a href="https://www.ictacademie.info/milangupta/downloads/H4toetsvragen.docx">
+        <a href="https://www.ictacademie.info/milangupta/downloads/DEVEL 10 toetsvragen H4.docx">
         <button class="btn btn-primary">H4 Toetsvragen</button>
         </a>
         </div>
 
+        <p>hallo</p>
 
         <div class="row">
             <div class="col-sm-5 doos">
